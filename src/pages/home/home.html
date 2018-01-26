@@ -1,0 +1,28 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/imgs/logo.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <p class="Tit">Home <ion-icon name="more" (click)="showMore($event)" style="float:right; cursor:pointer; width:20px;"></ion-icon></p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="btnContainer">
+    <div>
+        <button ion-button round color="putih" class="btnMateri" (click)="keMateri()"><p class="kataBtn">Materi</p></button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <button ion-button round color="putih" class="btnQuiz" (click)="keQuiz()"><p class="kataBtn">Quiz</p></button>
+    </div>
+  </div>
+</ion-content>

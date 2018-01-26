@@ -1,0 +1,39 @@
+
+.toolbar-background
+{
+    background-color: #3498db;
+}
+
+.toolbar-title.toolbar-title-ios
+{
+    color: #ffffff !important;
+}
+
+.toolbar-title.toolbar-title-md
+{
+    color: #ffffff !important;
+}
+
+.toolbar-title.toolbar-title-wp
+{
+    color: #ffffff !important;
+}
+
+@font-face
+{
+    font-family: mntsrte;
+    src: url('../assets/fonts/montserrate.woff2');
+}
+
+*
+{
+    font-family: mntsrte;
+}
+
+.back-button {
+    color: #ffffff !important;
+  }
+
+  .toolbar-title.toolbar-title-md, 
+  .toolbar-title.toolbar-title-ios, 
+  .toolbar-title.toolbar-title-wp { color: map-get($colors, putih); text-transform: uppercase;}
